@@ -11,6 +11,7 @@ namespace BeautyForestAgent
 {
     public partial class FormAbout : Form
     {
+
         public FormAbout()
         {
             InitializeComponent();

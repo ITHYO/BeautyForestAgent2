@@ -57,6 +57,15 @@ namespace BeautyForestAgent
         {
 
         }
+
+        private void 끝내기ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void 수정ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
