@@ -74,9 +74,9 @@ namespace BeautyForestAgent
         }
         private void ShowModal()
         {
-            this.statusMessage.Text = "모달 창을 띄웁니다.";
+            this.statusMessage.Text = "프로필 수정";
             FormModify m = new FormModify();
-            m.Title = "모달 창띄우기";
+            m.Title = "프로필 수정";
             m.ShowDialog();
         }
                
@@ -95,9 +95,9 @@ namespace BeautyForestAgent
         }
         private void ShowModaless()
         {
-            this.statusMessage.Text = "모달리스 창을 띄웁니다.";
+            this.statusMessage.Text = "추가";
             FormAdd m = new FormAdd();
-            m.Title = "모달리스 창띄우기";
+            m.Title = "추가";
             m.Show();
         }
 
@@ -117,7 +117,7 @@ namespace BeautyForestAgent
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
-            ShowModal();
+            ShowModaless();
 
         }
     }
