@@ -47,6 +47,16 @@ namespace BeautyForestAgent
         {
             VisibleChange(true);
         }
+
+        private void 이프로그램은ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
